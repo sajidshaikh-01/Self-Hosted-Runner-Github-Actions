@@ -17,7 +17,7 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
+    # self hosted runner added and add only those labels when you are creating self hosted runner
     runs-on: [self-hosted, Linux, prod]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
